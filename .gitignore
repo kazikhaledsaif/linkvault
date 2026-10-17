@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+*.log
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!example.tfvars
+.terraform.lock.hcl.bak
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
